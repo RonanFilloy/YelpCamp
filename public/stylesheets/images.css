@@ -1,0 +1,24 @@
+#formFile {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#formFile img {
+    width: 100px;
+    height: 75px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    transition: 0.2s ease;
+}
+
+#formFile img:hover {
+    box-shadow: 2px 2px 2px 1px grey;
+    opacity: 0.5;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
